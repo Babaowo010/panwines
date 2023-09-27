@@ -5,12 +5,11 @@ import "./index.css";
 import App from "./App";
 import { RouterProvider } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
-import { router } from "./rout/rout";
+import { router } from "./router/router";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
     <RouterProvider router={router} />
   </React.StrictMode>
 );

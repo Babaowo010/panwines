@@ -16,7 +16,7 @@
 }
 
 input[type="text1"]::placeholder {
-  background: url("C:\Users\PT WORLD\panwineapp\public\images\search.jpg");
+  background: url("../../../public/images/search.jpg");
   background-size: 17%;
   background-repeat: no-repeat;
   background-position: right;
@@ -36,7 +36,7 @@ input[type="text1"]::placeholder {
 }
 
 input[type="text2"]::placeholder {
-  background: url("C:\Users\PT WORLD\panwineapp\public\images\search.jpg");
+  background: url("../../../public/images/search.jpg");
   background-size: 17%;
   background-repeat: no-repeat;
   background-position: right;
