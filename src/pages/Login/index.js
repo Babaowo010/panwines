@@ -8,8 +8,8 @@ function Login() {
         {/* <p className="bg-para">PanWines</p> */}
         <img src="../../../images/login-image.png" alt="banner" />
       </div>
-      <div>
-        <p>Sign in to PanWines</p>
+      <div className="form-div">
+        <p className="form-p">Sign in to PanWines</p>
         <form>
           <input type="email" placeholder="Email Address" name="email" />
           <input type="password" placeholder="Password" name="password" />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./nav.css";
 
 function Navbar() {
@@ -10,15 +11,15 @@ function Navbar() {
 
       <div className="links">
         <div className="nav-list">
-          <a href="#">
+          <a href="/">
             <li>Home</li>
           </a>
-          <a href="#">
+          <a href="/">
             <li>Product</li>
           </a>
         </div>
         <div className="shop">
-          <a href="#">
+          <a href="/">
             <li>Shopping Cart</li>
           </a>
           <svg
@@ -36,7 +37,10 @@ function Navbar() {
         </div>
       </div>
       <div className="log">
-        <button className="login">Login</button>
+        <Link>
+          <button className="login">Login</button>
+        </Link>
+
         <button className="signup">Signup</button>
       </div>
     </div>
