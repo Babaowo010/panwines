@@ -1,0 +1,59 @@
+.bodycon {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("C:\Users\PT WORLD\panwineapp\public\images\Homepage Display Picture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding-bottom: 100px; */
+  width: 100%;
+  height: 660px;
+}
+
+.tasbro {
+  padding: 70px;
+}
+
+.taste {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  color: white;
+  margin: 10px;
+}
+
+.best {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  color: white;
+  margin: 0px;
+}
+
+.brow {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  /* text-align: center; */
+  color: white;
+}
+
+.exp {
+  display: flex;
+  background-color: #411530;
+  color: white;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  border-radius: 12px;
+  justify-content: center;
+  align-content: center;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+  margin: 40px;
+  padding: 20px;
+}

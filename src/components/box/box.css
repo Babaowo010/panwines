@@ -1,0 +1,47 @@
+.textbox-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  align-content: center;
+  margin: 80px;
+  gap: 500px;
+}
+
+#search1 {
+  width: 565px;
+  height: 60px;
+  border-radius: 20px;
+  border: 1px solid #411530;
+}
+
+input[type="text1"]::placeholder {
+  background: url("C:\Users\PT WORLD\panwineapp\public\images\search.jpg");
+  background-size: 17%;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 30px;
+  height: 45%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#search2 {
+  width: 571px;
+  height: 60px;
+  top: 841px;
+  left: 805px;
+  border-radius: 20px;
+  border: 1px solid #411530;
+}
+
+input[type="text2"]::placeholder {
+  background: url("C:\Users\PT WORLD\panwineapp\public\images\search.jpg");
+  background-size: 17%;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 30px;
+  height: 45%;
+  font-size: 20px;
+  font-weight: 500;
+}

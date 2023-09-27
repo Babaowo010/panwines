@@ -1,0 +1,82 @@
+.pro {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #411530;
+  margin: 80px;
+  /* padding-top: 60px; */
+}
+
+.group1 {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.can {
+  margin: 71px;
+  width: 90%;
+}
+
+.rec {
+  display: flex;
+  justify-content: flex-start;
+  width: 416px;
+  height: 520px;
+  border-radius: 12px;
+}
+
+.dol {
+  /* font-family: Inter; */
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+  /* margin: 100px; */
+}
+
+.cash {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+  /* margin: 100px; */
+}
+
+.add {
+  display: flex;
+  background-color: #411530;
+  color: white;
+  width: 416px;
+  height: 56px;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.vm {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.when {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #41153099;
+  text-decoration: underline;
+}
+
+.gan {
+  padding: 15px;
+}
