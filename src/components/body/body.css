@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("C:\Users\PT WORLD\panwineapp\public\images\Homepage Display Picture.jpg");
+  background-image: url("../../../public/images/Homepage\ Display\ Picture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   /* padding-bottom: 100px; */
