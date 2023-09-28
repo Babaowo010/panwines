@@ -21,14 +21,10 @@
   font-size: 48px;
   font-weight: 700;
 }
-.bg-para {
-  position: relative;
-  bottom: 16px;
-  left: 16px;
-}
+
 img {
   width: 720px;
-  height: 100vh;
+  height: 100%;
 }
 .form-div {
   width: 100%;
@@ -38,14 +34,14 @@ img {
   font-size: 32px;
   font-weight: 700;
   color: #411530;
-  margin-bottom: 100px;
+  margin-bottom: 96px;
 }
 form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  gap: 128px;
+  gap: 48px;
 }
 input {
   width: 100%;
@@ -59,7 +55,7 @@ input {
 .input-div {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 32px;
   width: 100%;
 }
 button {
@@ -71,12 +67,26 @@ button {
   font-size: 24px;
   font-weight: 600;
 }
+.google-btn {
+  width: 420px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: white;
+  color: #411530;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #411530;
+}
 .acc-div {
   display: flex;
   flex-direction: column;
-  gap: 48px;
-  align-items: center;
-  justify-content: center;
+  gap: 32px;
+
+  text-align: end;
 }
 .acc-div p {
   display: flex;
@@ -85,6 +95,17 @@ button {
   font-size: 24px;
   gap: 2px;
 }
-Link {
+.google-div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.link-div {
   text-decoration: none;
+  align-self: self-end;
+  text-align: end;
+  color: #411530;
+  font-family: Inter;
+  font-size: 24px;
 }

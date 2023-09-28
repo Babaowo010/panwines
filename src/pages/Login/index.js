@@ -7,16 +7,22 @@ function Login() {
       <div className="bg-div">
         {/* <p className="bg-para">PanWines</p> */}
         <img src="../../../images/login-image.png" alt="banner" />
+        <div className="topleft">PanWines</div>
       </div>
-      <div>
-        <p>Sign in to PanWines</p>
+      <div className="form-div">
+        <p className="form-p">Sign in to PanWines</p>
         <form>
-          <input type="email" placeholder="Email Address" name="email" />
-          <input type="password" placeholder="Password" name="password" />
-          <button type="submit">Sign in</button>
-          <div>
+          <div className="input-div">
+            <input type="email" placeholder="Email Address" name="email" />
+            <input type="password" placeholder="Password" name="password" />
+          </div>
+          <div className="acc-div">
+            <button type="submit">Sign in</button>
             <p>
-              Don't have an account? <Link to={"/signup"}>Sign up</Link>
+              Don't have an account?
+              <Link to={"/signup"}>
+                <p>Sign up</p>
+              </Link>
             </p>
           </div>
         </form>

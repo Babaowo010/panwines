@@ -17,28 +17,28 @@ function Neon() {
           <div className="tactage">
             <div className="age">
               <h2>Homepage</h2>
-              <a className="#" href="kin">
+              <a className="o" href="/">
                 <li>Home</li>
               </a>
-              <a className="#" href="kin">
+              <a className="o" href="/">
                 <li>Authentication</li>
               </a>
-              <a className="#" href="kin">
+              <a className="o" href="/">
                 <li>Product</li>
               </a>
-              <a className="#" href="kin">
+              <a className="o" href="/">
                 <li>Shopping</li>
               </a>
             </div>
             <div className="tact">
               <h2>Contact Us</h2>
-              <a className="#" href="#">
+              <a className="#" href="/">
                 <li>Panwine@gmail.com</li>
               </a>
-              <a className="#" href="#">
+              <a className="#" href="/">
                 <li>www.PanWine.com</li>
               </a>
-              <a className="#" href="#">
+              <a className="#" href="/">
                 <li>+23480808080</li>
               </a>
             </div>
