@@ -1,0 +1,161 @@
+.rat {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+  padding: 0;
+  gap: 10px;
+}
+
+.duu {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  padding-left: 20px;
+  color: #411530;
+}
+.catalog {
+  margin: 0;
+  padding: 0;
+}
+.carton {
+  margin: 0;
+}
+.mart {
+  margin: 0;
+  margin-top: 10px;
+}
+.tona {
+  margin: 0;
+  padding-bottom: 20px;
+  margin-right: 30px;
+}
+
+.wife {
+  display: flex;
+  flex-direction: row;
+  border-color: black;
+  border-style: outset;
+  gap: 49%;
+  border: 1px solid #411530;
+}
+.tity {
+  display: flex;
+  flex-direction: row;
+  gap: 85%;
+}
+.bitt {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 45px;
+  color: #411530;
+}
+.rice {
+  font-size: 28px;
+  font-weight: 500;
+  color: #411530;
+}
+.quar {
+  font-size: 28px;
+  font-weight: 500;
+  color: #411530;
+}
+.tat {
+  font-size: 28px;
+  font-weight: 500;
+  color: #411530;
+}
+
+.wife1 {
+  display: flex;
+  flex-direction: row;
+  gap: 37%;
+}
+.ola {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+.ewe {
+  margin: 30px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.tity1 {
+  display: flex;
+  flex-direction: row;
+  gap: 70%;
+}
+.han {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 14px;
+  margin-top: 38px;
+}
+.qua {
+  display: flex;
+  width: 52px;
+  height: 28px;
+  border: 1px solid #411530;
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+}
+.cway {
+  margin: 40px;
+  margin-top: 100px;
+}
+.live {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.rands {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.tity11 {
+  display: flex;
+  flex-direction: row;
+  gap: 71%;
+}
+.minus {
+  margin-top: 10px;
+}
+.plus {
+  margin-top: 5px;
+}
+
+.este {
+  display: flex;
+  background-color: #411530;
+  color: white;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  border-radius: 12px;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 700px;
+}

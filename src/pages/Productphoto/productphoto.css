@@ -1,0 +1,127 @@
+.too {
+  margin: 40px;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.moff {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 40px;
+}
+input[type="productname"] {
+  width: 1312px;
+  height: 60px;
+  top: 204px;
+  left: 752px;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+input[type="productname"]::placeholder {
+  color: #411530;
+  text-align: center;
+  margin-left: 1100px;
+}
+input[type="productpice"] {
+  width: 1312px;
+  height: 60px;
+  top: 204px;
+  left: 752px;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+input[type="productpice"]::placeholder {
+  color: #411530;
+  text-align: center;
+  margin-left: 1100px;
+}
+input[type="category"] {
+  width: 1312px;
+  height: 60px;
+  top: 204px;
+  left: 752px;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+input[type="category"]::placeholder {
+  color: #411530;
+  text-align: center;
+  margin-left: 1150px;
+}
+input[type="stock"] {
+  width: 1312px;
+  height: 60px;
+  top: 204px;
+  left: 752px;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+input[type="stock"]::placeholder {
+  color: #411530;
+  text-align: center;
+  margin-left: 1190px;
+}
+.lect {
+  display: flex;
+  flex-direction: row;
+  border-style: dashed;
+  width: 1312px;
+  height: 380px;
+  margin: 40px;
+
+  text-align: center;
+  border-radius: 12px;
+  justify-content: center;
+  border-color: #411530;
+  align-items: center;
+  gap: 15px;
+}
+.wes {
+  text-decoration: underline;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #411530;
+}
+.lick {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #411530;
+}
+.myex {
+  display: flex;
+  background-color: #411530;
+  color: white;
+  align-items: center;
+  width: 1312px;
+  height: 60px;
+  border-radius: 12px;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+  margin: 40px;
+}

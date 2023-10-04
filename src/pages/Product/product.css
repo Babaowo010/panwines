@@ -1,0 +1,44 @@
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 95px;
+}
+
+.polar {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.foun {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.by {
+  font-size: 24px;
+  font-weight: 700;
+}
+#rel {
+  width: 408px;
+  height: 60px;
+  top: 136px;
+  left: 968px;
+  border-radius: 12px;
+  background: url("../../../public/images/vpng.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 10px;
+}
+
+input[type="text"]::placeholder {
+  padding-left: 100px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #411530;
+}
