@@ -1,82 +1,116 @@
-.pro {
+.procs{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 30px;
+}
+
+.prodhead{
+  width: 123px;
+  height: 39px;
+  margin-top: 60px;
+  margin-left: 50px;
+  font-family: Inter;
   font-size: 32px;
   font-weight: 600;
   line-height: 39px;
   letter-spacing: 0em;
   text-align: left;
   color: #411530;
-  margin: 80px;
-  /* padding-top: 60px; */
+
 }
 
-.group1 {
+.productss{
   display: flex;
-  width: 90%;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 50px;
+  padding-left: -50px;
+  margin-left: -100px;
+  margin-right: -100px;
 }
 
-.can {
-  margin: 71px;
-  width: 90%;
-}
+.linkp{
+    text-decoration: none;
+    border-bottom: none;
+  }
 
-.rec {
+.paret{
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
+}
+
+.productimage{
   width: 416px;
   height: 520px;
+  top: 1048px;
+  left: 64px;
   border-radius: 12px;
+  padding: 0 ;
+  margin-bottom: 10px;
+
 }
 
-.dol {
-  /* font-family: Inter; */
+.productname{
+  width: 304px;
+  height: 28px;
+  /* top: 1588px; */
+  left: 64px;
+  font-family: Inter;
   font-size: 24px;
   font-weight: 500;
+  line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  /* margin: 100px; */
+  color: rgba(65, 21, 48, 1);
+  padding: 0;
+  padding-left: 30px;
+  margin: 0;
 }
 
-.cash {
+.price{
+  width: 304px;
+  height: 28pxs;
+  /* top: 1588px; */
+  left: 64px;
+  font-family: Inter;
   font-size: 24px;
   font-weight: 500;
+  line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  /* margin: 100px; */
+  color: rgba(65, 21, 48, 1);
+  padding: 0;
+  padding-left: 30px;
+  margin: 0;
 }
 
-.add {
-  display: flex;
-  background-color: #411530;
-  color: white;
+.Addtocart{
   width: 416px;
   height: 56px;
   border-radius: 12px;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: 0em;
-  padding: 5px;
-  align-items: center;
-  justify-content: center;
+  background: rgba(65, 21, 48, 1);
+  color: white;
+  padding: 0;
+  margin: 10px;
 }
-
-.vm {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  gap: 3px;
+.links{
+  width: 100%;
+  height: 40px;
+  padding-left: 48%;
+  margin-top: 100px;
 }
-
-.when {
+.linkmore{
+  width: 168px;
+  height: 40px;
+  font-family: Inter;
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
-  color: #41153099;
-  text-decoration: underline;
-}
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(65, 21, 48, 0.6);
 
-.gan {
-  padding: 15px;
+
+  
+
 }

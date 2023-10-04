@@ -1,54 +1,52 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import "./peck.css";
 // import { Link } from "react-router-dom";
 
 function Neon() {
   return (
-    <div className="rain">
-      <div className="cott">
-        <div className="gance">
-          <h1 className="sen">PanWines</h1>
-          <div className="tog">
-            <p className="ful1">Get the Tastefulness & </p>
-            <p className="ful2">Elegance of a Best Wine</p>
-          </div>
+    <div className='footer'>
+    <div className='foot1'>
+        <div className='footlogo'>
+            <h1 className='ftlogo'>PanWines</h1>
         </div>
-        <div className="moh">
-          <div className="tactage">
-            <div className="age">
-              <h2>Homepage</h2>
-              <a className="#" href="kin">
-                <li>Home</li>
-              </a>
-              <a className="#" href="kin">
-                <li>Authentication</li>
-              </a>
-              <a className="#" href="kin">
-                <li>Product</li>
-              </a>
-              <a className="#" href="kin">
-                <li>Shopping</li>
-              </a>
-            </div>
-            <div className="tact">
-              <h2>Contact Us</h2>
-              <a className="#" href="#">
-                <li>Panwine@gmail.com</li>
-              </a>
-              <a className="#" href="#">
-                <li>www.PanWine.com</li>
-              </a>
-              <a className="#" href="#">
-                <li>+23480808080</li>
-              </a>
-            </div>
-          </div>
-
-          <div className="expo">Explore Products</div>
+    
+        <div className='footpara'>
+            <p className='ftpara'>Get the Tastefulness & <br/>
+            Elegance of a Best Wine</p>
         </div>
-      </div>
     </div>
-  );
+    <div className='foot2'>
+        <div className='fooabout'>
+            <div className='Homepg'>
+                
+                <ul>
+                    <li><h3>Homepage</h3></li>
+                    <li>Home</li>
+                    <li>Authentiction</li>
+                    <li>Product</li>
+                    <li>Shoping</li>
+                </ul>  
+            </div>
+            <div className='contactpg'>
+                
+                <ul>
+                    <li><h3>Contact us</h3></li>
+                    <li>Panwine@gmail.com</li>
+                    <li>www.panwine.com</li>
+                    <li>+23480808080</li>
+                    
+                </ul>  
+            </div>
+           
+        </div>
+    
+        <div className='footpara2'>
+        <button className='footbtn'><Link to={"./productpage"} className='link1'>Explore Products</Link></button>
+        </div>
+    </div>
+</div>
+)
 }
 
 export default Neon;

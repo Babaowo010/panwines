@@ -1,59 +1,62 @@
-.bodycon {
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url("../../../public/images/Homepage\ Display\ Picture.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* padding-bottom: 100px; */
+
+.intro{
+  /* position: static ; */
   width: 100%;
   height: 660px;
+  /* left: 0px; */
+  padding-top: 100px;
+  /* margin-top: -60px; */
+  /* padding: 0px; */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%,
+   rgba(0, 0, 0, 0.50) 100%), 
+  url(itopp.jpg), 
+  lightgray 50%;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
 }
 
-.tasbro {
-  padding: 70px;
-}
-
-.taste {
+.para1{
+  font-family: Inter;
   font-size: 60px;
   font-weight: 700;
   line-height: 72px;
   letter-spacing: 0em;
-  color: white;
-  margin: 10px;
+  text-align: center;
+  padding-top: 50px;
+
 }
 
-.best {
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 72px;
-  letter-spacing: 0em;
-  color: white;
-  margin: 0px;
-}
-
-.brow {
+.para2{
+  font-family: Inter;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
-  /* text-align: center; */
-  color: white;
+  letter-spacing: 0em;
+  text-align: center;
+
 }
 
-.exp {
-  display: flex;
-  background-color: #411530;
-  color: white;
-  align-items: center;
+.parab{
+  background: rgba(65, 21, 48, 1);
+  color: aliceblue;
   width: 400px;
   height: 100px;
+  top: 508px;
+  left: 520px;
   border-radius: 12px;
-  justify-content: center;
-  align-content: center;
+  font-family: Inter;
   font-size: 32px;
   font-weight: 600;
-  text-align: left;
-  margin: 40px;
-  padding: 20px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.para4{
+  padding-top: 80px;
+  align-content: center;
 }

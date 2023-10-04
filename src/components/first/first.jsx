@@ -1,200 +1,119 @@
-import React from "react";
-import "./first.css";
-// import { Link } from "react-router-dom";
+// import React from 'react'
+import { Link } from 'react-router-dom';
+import './first.css'
+import Dolceto from'./proimages/Dolceto.jpg'
+import merlot from'./proimages/merlot.jpg'
+import yerling from'./proimages/yerling.jpg'
+import pinot from'./proimages/pinot.jpg'
+import sauvig from'./proimages/sauvig.jpg'
+import veuve from'./proimages/veuve.jpg'
+import amarone from'./proimages/amarone.jpg'
+import vina from'./proimages/vina.jpg'
+import nebla from'./proimages/nebla.jpg'
+import canalet from'./proimages/canalet.jpg'
+import clearspring from'./proimages/clearspring.jpg'
+// import vina from'./proimages/vina.jpg'
 
 function Vagan() {
   return (
-    <div>
-      <h2 className="pro">Product</h2>
-
-      <div className="group1">
-        <div className="can">
-          <div className="rec">
-            <img
-              src="./images/Rectangle 59 canaletto.jpg"
-              alt="canalettowine"
-            />
-          </div>
-          <div>
-            <div className="lan">
-              <p className="dol">Dolceto</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-        <div className="can">
-          <div className="rec1">
-            <img
-              src="./images/Rectangle 51 clearsprings.jpg"
-              alt="clearspringwine"
-            />
-          </div>
-          <div>
-            <div className="lan1">
-              <p className="dol">Merlot Clearsprings</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-        <div className="can">
-          <div className="rec">
-            <img src="./images/Rectangle 52 yering.jpg" alt="yeringwine" />
-          </div>
-          <div>
-            <div className="lan">
-              <p className="dol">Yering</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-      </div>
-      <div className="group1">
-        <div className="can">
-          <div className="rec">
-            <img src="./images/Rectangle 56 pinot.jpg" alt="pinotwine" />
-          </div>
-          <div>
-            <div className="lan">
-              <p className="dol">Pinot Noir: Aymura</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-        <div className="can">
-          <div className="rec1">
-            <img src="./images/Rectangle 57 blanc.jpg" alt="vinawine" />
-          </div>
-          <div>
-            <div className="lan1">
-              <p className="dol">Sauvignon Blanc</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-        <div className="can">
-          <div className="rec">
-            <img src="./images/Rectangle 58 veuve.jpg" alt="neblawine" />
-          </div>
-          <div>
-            <div className="lan">
-              <p className="dol">Veuve Cliquot</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-      </div>
-      <div className="group1">
-        <div className="can">
-          <div className="rec">
-            <img src="./images/Rectangle 55 amarone.jpg" alt="pinotwine" />
-          </div>
-          <div>
-            <div className="lan">
-              <p className="dol">Amarone</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-        <div className="can">
-          <div className="rec1">
-            <img src="./images/Rectangle 54 vina.jpg" alt="vinawine" />
-          </div>
-          <div>
-            <div className="lan1">
-              <p className="dol">Vina Ardanza</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-        <div className="can">
-          <div className="rec">
-            <img src="./images/Rectangle 50 nebla.jpg" alt="neblawine" />
-          </div>
-          <div>
-            <div className="lan">
-              <p className="dol">Nebla</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-      </div>
-      <div className="group1">
-        <div className="can">
-          <div className="rec">
-            <img
-              src="./images/Rectangle 59 canaletto.jpg"
-              alt="canalettowine"
-            />
-          </div>
-          <div>
-            <div className="lan">
-              <p className="dol">Dolceto</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-        <div className="can">
-          <div className="rec1">
-            <img
-              src="./images/Rectangle 51 clearsprings.jpg"
-              alt="clearspringwine"
-            />
-          </div>
-          <div>
-            <div className="lan1">
-              <p className="dol">Merlot Clearsprings</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-        <div className="can">
-          <div className="rec">
-            <img src="./images/Rectangle 52 yering.jpg" alt="yeringwine" />
-          </div>
-          <div>
-            <div className="lan">
-              <p className="dol">Yering</p>
-              <p className="cash">#12,400</p>
-            </div>
-            <div className="add">Add To Cart</div>
-          </div>
-        </div>
-      </div>
-      <div className="vm">
-        <a href="more">
-          <li className="when">View More</li>
-        </a>
-        <svg
-          className="gan"
-          width="10"
-          height="18"
-          viewBox="0 0 10 18"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M1 17L9 9L1 0.999998" fill="#411530" fill-opacity="0.6" />
-          <path
-            d="M1 17L9 9L1 0.999998"
-            stroke="#4169E1"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-      </div>
+    <div className='procs'>
+    <div className='prodhead'>
+        <h4><Link to={"./productpage"} className='linkp'>product</Link></h4>
     </div>
-  );
+    <div className='productss'>
+        <div className='paret'>
+            <div className='productcontainer'>
+                <img className='productimage' src={Dolceto} alt='D for Doc'/>
+                <p className='productname'>Dolceto</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+            <div className='productcontainer'>
+                <img className='productimage' src={merlot} alt='D for Doc'/>
+                <p className='productname'>Merlot Clearsprings</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+            <div className='productcontainer'>
+                <img className='productimage' src={yerling} alt='D for Doc'/>
+                <p className='productname'>yerling</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+        </div>
+
+        <div className='paret'>
+            <div className='productcontainer'>
+                <img className='productimage' src={pinot} alt='D for Doc'/>
+                <p className='productname'>Pinot Noir: Aymura</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+            <div className='productcontainer'>
+                <img className='productimage' src={sauvig} alt='D for Doc'/>
+                <p className='productname'>Sauvignon Blanc</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+            <div className='productcontainer'>
+                <img className='productimage' src={veuve} alt='D for Doc'/>
+                <p className='productname'>Veuve Cliquot</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+        </div>
+
+        <div className='paret'>
+            <div className='productcontainer'>
+                <img className='productimage' src={amarone} alt='D for Doc'/>
+                <p className='productname'>Amarone</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+            <div className='productcontainer'>
+                <img className='productimage' src={vina} alt='D for Doc'/>
+                <p className='productname'>Vina Ardanza</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+            <div className='productcontainer'>
+                <img className='productimage' src={nebla} alt='D for Doc'/>
+                <p className='productname'>Nebla</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+        </div>
+
+        <div className='paret'>
+            <div className='productcontainer'>
+                <img className='productimage' src={canalet} alt='D for Doc'/>
+                <p className='productname'>Canaletto</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+            <div className='productcontainer'>
+                <img className='productimage' src={clearspring} alt='D for Doc'/>
+                <p className='productname'>Clearsprings</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+            <div className='productcontainer'>
+                <img className='productimage' src={yerling} alt='D for Doc'/>
+                <p className='productname'>Yering</p>
+                <p className='price'>#12,400</p>
+                <button className='Addtocart'>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div className='links'>
+        <a className='linkmore' href='more'>View-More</a>
+        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 17L9 9L1 0.999998" fill="#411530" fill-opacity="0.6"/>
+            <path d="M1 17L9 9L1 0.999998" stroke="#4169E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+    </div>
+</div>
+)
 }
 
 export default Vagan;

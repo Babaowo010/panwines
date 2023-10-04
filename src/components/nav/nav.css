@@ -1,53 +1,133 @@
-.container {
-  display: flex;
-  background-color: #411530;
-  justify-content: space-between;
-  padding: 0px;
-  color: whitesmoke;
-  align-items: center;
-  width: 100%;
-  height: 100px;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(65, 21, 48, 1);
+    width: 100%;
+    height: 100px;
+    align-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    /* margin-bottom: 0px; */
 }
 
-.links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 25px;
+.headlogo{
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 40px;
+    text-align: center;
+    /* padding-bottom: 30px; */
+    /* margin-bottom: 10px; */
+    gap: 20px;
+    /* padding: 0; */
+    /* padding-left: 50px */
+}
+.navlogo{
+    align-self: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    /* padding-top: 0; */
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 20px; */
+    width: 156px;
+    height: 40px;
+    /* margin-left: 80px; */
+    /* padding-right: 80px; */
 }
 
-.nav-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 10%;
-  gap: 25px;
+.groupb{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 20px;
+    /* width: 69px;
+    height: 28px;
+    top: 36px;
+    left: 506px; */
 }
 
-.shop {
-  display: flex;
-  justify-content: space-between;
-}
-a {
-  list-style: none;
-  text-decoration: none;
-  color: whitesmoke;
-  font-size: 24px;
-  font-weight: 600;
+.groupc{
+    display: flex;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    gap: 20px;
+    padding: 10px;
+
 }
 
-.panwine {
-  font-size: 32px;
-  font-weight: 700;
+.groupd{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
-.login {
-  width: 112px;
-  height: 44px;
-  border-radius: 8px;
+.navbtnn{
+    align-items: center;
+    width: 112px;
+    height: 44px;
+    top: 28px;
+    left: 1136px;
+    border-radius: 8px;
 }
-.signup {
-  width: 112px;
-  height: 44px;
-  border-radius: 8px;
+
+.navbtnn{
+    display: flex;
+    width: 300px;
+    height: 44px;
+    align-items: center;
+    gap: 10px;
+    /* padding-right: 10px; */
+    /* padding-left: 80px; */
+    /* margin-right: 40px; */
+
+}
+
+.link1{
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.linknav{
+    text-decoration-line: none;
+    color: rgba(65, 21, 48, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.navlogn{
+    width: 112px;
+    height: 44px;
+    /* margin-top: 28px; */
+    /* left: 1136px; */
+    border-radius: 8px;
+    background: #FFFFFF;
+    /* justify-content: center; */
+
+}
+
+.linksig{
+    text-decoration-line: none;
+    font-family: Inter;
+    color: #411530;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
 }
